@@ -5,9 +5,7 @@
 }
 
 html {
-	max-height: 100%;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
+	min-height: 100%;
 	transition: border-left .3s;
 }
 
