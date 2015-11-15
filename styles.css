@@ -1,0 +1,104 @@
+*, *::before, *::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+	transition: border-left .3s;
+}
+
+@media (min-width: 350px) {
+	html {
+		border-left: 2em solid #EFEFEF;
+	}
+}
+
+@media (min-width: 680px) {
+	html {
+		border-left: 15em solid #EFEFEF;
+	}
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+	background: #FCFBF8;
+}
+
+header, .info, footer {
+	overflow: auto;
+	margin: 5em 2em;
+}
+
+h1 {
+	background: #DC1201;
+	padding: 8px 14px 6px;
+	color: #FFF;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	float: left;
+	font-size: 1.8em;
+	transition: all .3s;
+}
+
+@media (min-width: 680px) {
+	h1 {
+		padding: 12px 18px 10px;
+		font-size: 2.5em;
+	}
+}
+
+h2 {
+	color: #777;
+	font-size: .8em;
+	font-style: normal;
+	clear: both;
+	padding-top: 2px;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	padding-top: 5em;
+	display: block;
+	clear: both;
+}
+
+dt {
+	clear: both;
+	font-size: .8em;
+	color: #777;
+	margin-bottom: -50px;
+	position: relative;
+	top: 2em;
+}
+
+dd, li {
+	background: #DC1201;
+	float: left;
+	clear: both;
+	margin-bottom: .5em;
+}
+
+dd {
+	margin-bottom: 1.5em;
+}
+
+dd a, li a {
+	padding: 4px 6px 2px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+dd a:hover, li a:hover {
+	background: #B60000;
+}
+
+footer small {
+	color: #777;
+	font-size: .8em;
+}
