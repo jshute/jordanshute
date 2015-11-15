@@ -4,27 +4,28 @@
 	padding: 0;
 }
 
-body {
-	box-sizing: border-box;
-	font-family: Montserrat, sans-serif;
-	background: #FCFBF8;
+html {
 	min-height: 100%;
 	transition: border-left .3s;
-	top: 0;
-	bottom: 0;
-	position: absolute;
+	-webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 350px) {
-	body {
+	html {
 		border-left: 2em solid #EFEFEF;
 	}
 }
 
 @media (min-width: 680px) {
-	body {
+	html {
 		border-left: 15em solid #EFEFEF;
 	}
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+	background: #FCFBF8;
 }
 
 header, .info, footer {
