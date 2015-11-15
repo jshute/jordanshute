@@ -5,9 +5,8 @@
 }
 
 html {
-	min-height: 100%;
+	min-height: 100vh;
 	transition: border-left .3s;
-	-webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 350px) {
