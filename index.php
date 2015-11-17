@@ -31,7 +31,7 @@
 			</ul>
 		</section>
 		<footer>
-			<small>&copy; 2015 Jordan Shute</small>
+			<small>&copy; <?=date('Y') ?> Jordan Shute</small>
 		</footer>
 	</body>
 </html>
