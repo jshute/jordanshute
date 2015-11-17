@@ -6,7 +6,6 @@
 
 html {
 	min-height: 100%;
-	transition: border-left .3s;
 }
 
 @media (min-width: 350px) {
@@ -35,7 +34,6 @@ header, .info, footer {
 
 header {
 	margin-top: 2em;
-	transition: margin-top .3s;;
 }
 
 h1 {
@@ -46,7 +44,6 @@ h1 {
 	word-spacing: 4px;
 	float: left;
 	font-size: 1.8em;
-	transition: all .3s;
 }
 
 @media (min-width: 680px) {
